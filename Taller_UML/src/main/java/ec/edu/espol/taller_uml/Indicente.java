@@ -20,5 +20,7 @@ public class Indicente {
     protected List log_actualizaciones;
     protected Date fecha_cerrado;
     protected String tipo;
+    private Usuario responsable;
+    protected PersonalAcademico beneficiario;
             
 }

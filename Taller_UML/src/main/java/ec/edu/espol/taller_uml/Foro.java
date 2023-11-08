@@ -9,5 +9,8 @@ package ec.edu.espol.taller_uml;
  * @author CltControl
  */
 public class Foro {
+    private String id;
+    private String tematica;
+    private int numeroDeComentarios;
     
 }

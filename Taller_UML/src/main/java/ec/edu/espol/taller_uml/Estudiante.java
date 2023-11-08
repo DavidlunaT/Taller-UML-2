@@ -4,11 +4,16 @@
  */
 package ec.edu.espol.taller_uml;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author CltControl
  */
 public class Estudiante extends PersonalAcademico {
+    private ArrayList<Curso> cursosACargo;
+    private ArrayList<Curso> cursosEnEsperaDeInscripcion;
+    private ArrayList<Curso> cursosInscritos;
     
     public Estudiante(String usuario, String contraseña, String nombre, String apellido) {
         super(usuario, contraseña, nombre, apellido);

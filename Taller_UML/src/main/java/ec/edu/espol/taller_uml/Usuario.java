@@ -4,6 +4,8 @@
  */
 package ec.edu.espol.taller_uml;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author CltControl
@@ -13,6 +15,7 @@ public class Usuario {
     protected String contraseña;
     protected String nombre;
     protected String apellido;
+    protected ArrayList<Indicente> indicentes;
 
     public Usuario(String usuario, String contraseña, String nombre, String apellido) {
         this.usuario = usuario;
